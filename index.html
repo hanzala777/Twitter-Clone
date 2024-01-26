@@ -13,7 +13,7 @@
   <body class="bg-black text-white">
     <div class="flex container mx-auto">
       <div class="first w-[50%] my-4">
-        <div class="logo invert my-5 ml-2 p-3 rounded-full">
+        <div class="logo invert my-5 ml-[-5px] p-3 rounded-full">
           <svg
             viewBox="0 0 24 24"
             aria-hidden="true"
@@ -26,8 +26,8 @@
             </g>
           </svg>
         </div>
-        <div class="flex sidebar justify-start">
-          <ul class="flex-col text-2xl space-y-3 w-1/2">
+        <div class="flex-col sidebar items-end">
+          <ul class="flex-col text-2xl space-y-3 w-1/2 px-11 font-bold">
             <li
               class="flex justify-start items-center gap-3 w-fit px-2 hover:bg-gray-900 hover:cursor-pointer rounded-full"
             >
@@ -89,17 +89,64 @@
             >
               <span class="material-symbols-outlined text-3xl"> more </span>More
             </li>
+            <li>
+              <div class="button text-center my-4">
+                <button class="bg-blue-400 text-white px-20 text-xl rounded-full py-1">Post</button>
+              </div>
+              </div>
+            </li>
           </ul>
-        </div>
       </div>
       <div class="second w-full border-[0.1px] border-x-white border-y-black">
         <div class="top flex p-3 relative">
-          <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[17.5%]"></div>
-          <div class="left w-1/2 flex justify-center font-bold text-lg">For you</div>
-          <div class="right w-1/2 flex justify-center font-bold text-lg">Following</div>
-          <div class="setting"><span class="material-symbols-outlined text-3xl"> settings </span></div>
+          <div
+            class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[17.5%]"
+          ></div>
+          <div class="left w-1/2 flex justify-center font-bold text-lg">
+            For you
+          </div>
+          <div class="right w-1/2 flex justify-center font-bold text-lg">
+            Following
+          </div>
+          <div class="setting">
+            <span class="material-symbols-outlined text-3xl"> settings </span>
+          </div>
         </div>
         <div class="h-[1px] w-full bg-gray-700"></div>
+        <div class="whtashapp flex gap-4 my-3">
+          <div class="img m-2 w-14">
+            <img
+            src="https://pbs.twimg.com/profile_images/1522060025854066688/IZs_lylH_bigger.png"
+            alt=""
+            />
+          </div>
+          <div class="w-full">
+            <input
+            type="text"
+            class="w-full bg-black text-white outline-none h-7 my-3 textxl"
+            placeholder="What is Happening?!"
+            />
+            <div class="text-blue-400 flex items-center gap-3 my-4 w-full">
+              <span class="material-symbols-outlined ">globe_asia</span>
+              <span class="font-bold">Everyone can reply</span>
+            </div>
+            <div class="h-[1px] w-[90%] bg-gray-700 my-3"></div>
+            <div class="blueicons flex gap-3 text-blue-400">
+              <span class="material-symbols-outlined cursor-pointer">image</span>
+              <span class="material-symbols-outlined cursor-pointer">gif</span>
+              <span class="material-symbols-outlined cursor-pointer">ballot</span>
+              <span class="material-symbols-outlined cursor-pointer">sentiment_satisfied</span>
+              <span class="material-symbols-outlined cursor-pointer">calendar_month</span>
+              <span class="material-symbols-outlined cursor-pointer">pin_drop</span>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="posts">
+          <div class="post">
+            
+          </div>
+        </div>
       </div>
       <div class="third w-[75%]">
         <div class="search px-2 m-3">
