@@ -40,7 +40,7 @@ Feel free to explore and enjoy the features of our Twitter clone, and don't forg
 #FullStackDeveloper #MERNStack #DSA #CodeEnthusiast"
 
 #Project Link 
-- (https://hanzala777.github.io/Twitter-Clone/)
+- [click here](https://hanzala777.github.io/Twitter-Clone/)
 
 
 
